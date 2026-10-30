@@ -121,7 +121,6 @@ const hanoiBridgeCoverImage = commonsFile(
   "Sunbeam Bridge, Hoan Kiem Lake, Hanoi (1) (38496848051).jpg",
 );
 const hanoiBatTrangImage = commonsFile("Bat-Trang-Ceramic-Village1.jpg");
-const hanoiDuongLamImage = commonsFile("Đường Lâm, Hà Nội, Vietnam - panoramio.jpg");
 const hanoiDuongLamGalleryImage = commonsFile("Cổng vào làng cổ Đường Lâm.jpg");
 const haGiangCitySquareImage = commonsFile("Ha Giang City Square.jpg");
 const haGiangCityImage =
@@ -873,7 +872,7 @@ const posterTours: Tour[] = [
         summary: "Ancient village lanes before the evening flight home.",
         story:
           "Check out for a cultural final day in Duong Lam, wandering Mong Phu Gate and ancient laterite houses before the direct airport transfer.",
-        image: hanoiDuongLamImage,
+        image: hanoiDuongLamGalleryImage,
         timeline: [
           { time: "07:00 - 08:00", title: "Breakfast & check-out", description: "Pack luggage on the vehicle." },
           { time: "08:00 - 09:30", title: "Depart for Son Tay – Duong Lam", description: "Direct transfer." },
