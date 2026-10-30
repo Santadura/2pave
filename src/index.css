@@ -7266,3 +7266,8 @@ button {
         font-size: 14px
     }
 }
+
+.itinerary-day-image--panoramic {
+    height: auto;
+    aspect-ratio: 2118 / 1005;
+}

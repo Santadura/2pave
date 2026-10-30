@@ -2119,7 +2119,11 @@ function TourDetail() {
                                 <SafeImage
                                   src={day.image}
                                   alt={day.title}
-                                  className="itinerary-day-image"
+                                  className={
+                                    day.imageLayout === "panoramic"
+                                      ? "itinerary-day-image itinerary-day-image--panoramic"
+                                      : "itinerary-day-image"
+                                  }
                                 />
                               )}
 
